@@ -1,5 +1,5 @@
 class Solution {
-public:
+public: 
     string getHint(string& secret, string &guess) {
         unordered_map<char,int> secret_freq;
         unordered_map<char,int> guess_freq;
