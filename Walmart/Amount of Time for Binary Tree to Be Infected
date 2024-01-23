@@ -3,7 +3,7 @@ class Solution {
 public:
     using int2=pair<int, int>; 
     vector<int> adj[100001];
-    void build_adj(TreeNode* root){
+    void build_adj(TreeNode* root){ 
         if (!root) return;
         int x=root->val;
         if (root->left){
