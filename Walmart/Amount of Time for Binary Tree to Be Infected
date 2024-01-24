@@ -1,6 +1,6 @@
 #pragma GCC optimize("O3", "unroll-loops")
 class Solution {
-public:
+public: 
     using int2=pair<int, int>; 
     vector<int> adj[100001];
     void build_adj(TreeNode* root){ 
