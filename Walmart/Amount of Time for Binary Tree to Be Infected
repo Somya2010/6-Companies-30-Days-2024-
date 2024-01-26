@@ -1,5 +1,5 @@
 #pragma GCC optimize("O3", "unroll-loops")
-class Solution {
+class Solution { 
 public: 
     using int2=pair<int, int>; 
     vector<int> adj[100001];
